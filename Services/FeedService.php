@@ -51,11 +51,11 @@ class FeedService {
     foreach ($slides as $slide) {
       $options = $slide->getOptions();
 
-      $source = $options['source'];
-
-      if (empty($source)) {
+      if (empty($options['source'];)) {
         continue;
       }
+
+      $source = $options['source'];
 
       $md5Source = md5($source);
 
