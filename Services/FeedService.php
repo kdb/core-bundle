@@ -51,7 +51,7 @@ class FeedService {
     foreach ($slides as $slide) {
       $options = $slide->getOptions();
 
-      if (empty($options['source'];)) {
+      if (empty($options['source'])) {
         continue;
       }
 
